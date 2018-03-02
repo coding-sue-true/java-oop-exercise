@@ -1,7 +1,5 @@
 package com.company;
 
-import static jdk.nashorn.internal.objects.NativeMath.round;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -18,6 +16,7 @@ public class Main {
         System.out.println("Total healthy burger price is: " + healthyBurger.itemizeHamburger());
 
         DeluxeBurger deluxeBurger = new DeluxeBurger();
+        deluxeBurger.itemizeHamburger();
         System.out.println("Total deluxe burger price is: " + deluxeBurger.itemizeHamburger());
     }
 }
